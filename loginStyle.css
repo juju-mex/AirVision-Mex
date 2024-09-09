@@ -1,0 +1,246 @@
+/* Fontes Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+}
+/*Variaveis Cores */
+
+:root {
+    --cor-verde: #3cb815 ;
+    --cor-verde-claro: #c0eb7b ;
+    --cor-laranja: #ff7e00 ;
+    --cor-laranja-claro: #f75f1d;
+    --cor-de-texto:  #1a2428;
+    --cor-bg: #fff; 
+}
+section{
+    padding: 4.5rem 0 1.5rem;
+}
+img{
+    width: 100%;
+}
+body{
+    color: var(--cor-de-texto);
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-bg);
+    box-shadow: 0 8px 11px rgb(14 55 54 / 15%);
+    padding: 20px 100px;
+    transition: 0.5s;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    cursor: pointer;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+.profile span{
+    font-size: 13px;
+    font-weight: 500;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--cor-de-texto);
+    column-gap: 0.5rem;
+}
+.logo .bx{
+    font-size: 24px;
+    color: var(--cor-laranja)
+}
+.navbar{
+   display: flex;
+   column-gap: 0.5rem; 
+}
+.navbar a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--cor-de-texto);
+    padding: 0.5rem 1rem;
+}
+.navbar a:hover,
+.navbar .home-active {
+    background: var(--cor-laranja-claro);
+    border-radius: 5rem;
+    color: var(--cor-bg);
+    transition: background 0.5s;
+}
+
+/*login*/
+.navbar-login{
+    display: flex;
+    column-gap: 0.5rem; 
+ }
+ .navbar-login a {
+    background: var(--cor-laranja);
+     font-size: 1rem;
+     font-weight: 500;
+     border-radius: 5rem;
+     color: var(--cor-bg);
+     padding: 0.5rem 1rem;
+ }
+ .navbar-login a:hover,
+ .navbar-login .home-active {
+     background: #3e3e3e3d;
+     border-radius: 5rem;
+     color: var(--cor-de-texto);
+     transition: background 0.5s;
+ }
+
+#menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10001;
+    display: none;
+}
+
+
+
+
+
+
+/*login*/
+body {
+  background: url(3d-view-sun-from-airplane-window.jpg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  margin-top: 80px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #f35506;
+  margin-bottom: 20px;
+}
+
+p {
+  font-weight: 300;
+  color: #000000;
+}
+.criar-cnt{
+  font-weight: 650;
+  color: #f75f1d;
+}
+ .criar-cnt:hover{
+  font-weight: 650;
+  transition: 0.5s;
+  color: #000000;
+ }
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%; /* Adiciona largura ao input-box */
+}
+
+.input-box i {
+  position: absolute;
+  left: 10px;
+  font-size: 18px; /* Ajuste conforme necessário */
+  color: #f35506;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  padding-left: 40px; /* Espaço para o ícone */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+label {
+  color: #000;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.btn-login{
+  color: #ffffff;
+  font-weight: 650;
+}
+
+button {
+  background-color: #f35506;
+  color: #fff;
+  font-weight: 650;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f35506;
+}
+
+.nova-conta {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.nova-conta a {
+  color: #f35506;
+  text-decoration: none;
+}
+
+.sign-up a:hover {
+  text-decoration: underline;
+}
