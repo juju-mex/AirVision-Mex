@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirVision</title>
+    <!-- Link do Css da juju -->
+     <link rel="stylesheet" href="style.css">
+    <!-- Importando Icones -->
+    <link rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- Link Swiper's CSS (carrosel de imagens)-->
+    <link rel="stylesheet" 
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <!--Barra de Navegação-->
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-plane' ></i>AirVision</a>
+
+        <!-- Menu Icons -->
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <!--Barra de navegação-->
+        <ul class="navbar">
+            <li> <a href="#home" class="home-active">Home</a> </li>
+            <li> <a href="#categorias">Categorias</a> </li>
+            <li> <a href="#produtos">Produtos</a> </li>
+            <li> <a href="#about">Sobre Nós</a> </li>
+            <li> <a href="#customers">Carrinho</a> </li>
+        </ul>
+
+        <!--Perfil-->
+        <div class="profile">
+            <img src="img/profile.jpg" alt="">
+            <a href="Profile-Edit/profileedit.html"> <span>Lewis Hamilton</span> </a>
+            <i class='bx bx-caret-down' ></i>
+        </div>
+    </header>
+
+    <!--Home-->
+    <section class="home" id="home">
+        <div class="text">
+            <h1><span> Planeje </span> suas <br> melhores memorias </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            </p>
+        </div>
+
+        <div class="form-container">
+            <form action="">
+                <div class="input-box">
+                    <span>Partida</span>
+                    <input type="search" name="" id="" placeholder="Search Places">
+                </div>
+                
+                <div class="input-box">
+                    <span>Destino</span>
+                    <input type="search" name="" id="" placeholder="Search Places">
+                </div>
+                <div class="input-box">
+                    <span>Data de ida</span>
+                    <input type="date" name="" id="">
+                </div>
+                <div class="input-box">
+                    <span>Data de volta</span>
+                    <input type="date" name="" id="">
+                </div>
+                <input type="submit" name="" id="" class="bnt">
+            </form>
+        </div>
+    </section>
+    <!--Categorias-->
+    <section class="categories" id="categories">
+        <div class="heading">
+            <h1>Veja um pouco mais<br> <span>Categories</span></h1>
+                <a href="#" class="bntn">See All <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+        <!--As div dos produtos-->
+        <div class="categorias-container">
+            <!--box 1-->
+            <div class="box box1">
+                <img src="img" alt="">
+                <h2>Romantic</h2>
+                <span>22 Itens</span>
+                <i class='bx bx-right-arrow-alt'></i>
+            </div>
+            <!--box 2-->
+            <div class="box box2">
+                <img src="img" alt="">
+                <h2>Friends</h2>
+                <span>22 Itens</span>
+                <i class='bx bx-right-arrow-alt'></i>
+            </div>
+            <!--box 3-->
+            <div class="box box3">
+                <img src="img" alt="">
+                <h2>Familly</h2>
+                <span>22 Itens</span>
+                <i class='bx bx-right-arrow-alt'></i>
+            </div>
+            <!--box 4-->
+            <div class="box box4">
+                <img src="img" alt="">
+                <h2>Adventure</h2>
+                <span>22 Itens</span>
+                <i class='bx bx-right-arrow-alt'></i>
+            </div>
+            <!--box 5-->
+            <div class="box box5">
+                <img src="img" alt="">
+                <h2>For Work</h2>
+                <span>22 Itens</span>
+                <i class='bx bx-right-arrow-alt'></i>
+            </div>
+        </div>
+    </section>
+    <!--Produtos-->
+    <section class="products" id="products">
+        <div class="heading">
+            <h1>Os Populares<br> <span>Produtos</span></h1>
+                <a href="#" class="bntn"> Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+        
+        <!--Produtos2-->
+        <div class="products-container">
+            <!--1 Produto-->
+            <div class="box">
+                <img src="img/img/santorini.webp" alt="">
+                <span>Popular</span>
+                <h2>Santorine - Grécia <br></h2><br>
+                <div>
+                    <i class='bx bx-time-five' ></i> 12 horas de Voo <br>
+                    <i class='bx bxs-plane-alt'></i> Ida e Volta
+                    <h3 class="price"> $6.144,00 <span>/Ps</span> </h3>
+                    <button class="bnt-more">Saiba Mais</button>  <br> <br>
+                </div>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount tour-romantic"> Tour Romantic</span>
+            </div>
+
+             <!--2 Produto-->
+             <div class="box">
+                <div class="img-box">
+                <img src="img/img/paris.webp" alt="">
+            </div>
+                <span>Popular</span>
+                <h2>França - Paris<br></h2><br>
+                <div>
+                    <i class='bx bx-time-five' ></i> 11 horas de Voo <br>
+                    <i class='bx bxs-plane-alt'></i> Ida e Volta
+                    <h3 class="price"> $7.785,00 <span>/Ps</span> </h3>
+                    <button class="bnt-more">Saiba Mais</button> <br> <br>
+                </div>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount tour-romantic">Tour Romantic</span>
+            </div>
+
+             <!--3 Produto-->
+             <div class="box">
+                <img src="img/img/dubai.webp" alt="">
+                <span>Promotion</span>
+                <h2>Emirados Arabes - Dubai <br></h2><br>
+                <div>
+                    <i class='bx bx-time-five' ></i> 22h 54m de Voo <br>
+                    <i class='bx bxs-plane-alt'></i> Ida e Volta
+                    <h3 class="price"> $12.570,00 <span>/Ps</span> </h3>
+                    <button class="bnt-more">Saiba Mais</button> <br> <br>
+                </div>
+                
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount big-promotion">-7,6% OFF</span>
+            </div>
+
+             <!--4 Produto-->
+             <div class="box">
+                <img src="img/img/maldivas.jpg" alt="">
+                <span>Promotion</span>
+                <h2>Viagem para Maldivas <br></h2><br>
+                <div>
+                    <i class='bx bx-time-five' ></i> 28h 52m de Voo <br>
+                    <i class='bx bxs-plane-alt'></i> Ida e Volta
+                    <h3 class="price"> $10.750,00 <span>/Ps</span> </h3>
+                    <button class="bnt-more">Saiba Mais</button> <br> <br>
+                </div>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount tour-romantic">Tour Romantic</span>
+            </div>
+
+             <!--5 Produto-->
+             <div class="box">
+                <img src="img/img/punta-cana.webp" alt="">
+                <span>Popular</span>
+                <h2>Punta Cana - Republica Domenicana <br></h2><br>
+                <div>
+                    <i class='bx bx-time-five' ></i> 12 horas de Voo <br>
+                    <i class='bx bxs-plane-alt'></i> Ida e Volta
+                    <h3 class="price"> $750,00 <span>/Ps</span> </h3> <br> <br>
+                    <button class="bnt-more">Saiba Mais</button>
+                </div>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount big-promotion">-17% OFF</span>
+            </div>
+            
+             <!--6 Produto-->
+             <div class="box">
+                <img src="img/img/roma.jpg" alt="">
+                <span>Big Promotion</span>
+                <h2>Roma - Itália <br></h2><br>
+                <div>
+                    <i class='bx bx-time-five' ></i> 12 horas de Voo <br>
+                    <i class='bx bxs-plane-alt'></i> Ida e Volta
+                    <h3 class="price"> $750,00 <span>/Ps</span> </h3>
+                    <button class="bnt-more">Saiba Mais</button> <br> <br>
+                </div>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount tour-romantic">Tour Romantic</span>
+            </div>
+            <!--7 Produto-->
+            <div class="box">
+                <img src="img/img/veneza.webp" alt="">
+                <span>Recommended</span>
+                <h2>Veneza - Itália <br></h2><br>
+                <div>
+                    <i class='bx bx-time-five' ></i> 12 horas de Voo <br>
+                    <i class='bx bxs-plane-alt'></i> Ida e Volta
+                    <h3 class="price"> $750,00 <span>/Ps</span> </h3>
+                    <button class="bnt-more">Saiba Mais</button> <br> <br>
+                </div>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount tour-romantic"> Tour Romantic</span>
+            </div>
+            <!--8 Produto-->
+            <div class="box">
+                <img src="img/img/budapeste.jpg" alt="">
+                <span>Big Promotion</span>
+                <h2>Budaspeste - Húngria <br></h2><br>
+                <div>
+                    <i class='bx bx-time-five' ></i> 12 horas de Voo <br>
+                    <i class='bx bxs-plane-alt'></i> Ida e Volta
+                    <h3 class="price"> $750,00 <span>/Ps</span> </h3> <br>
+                    <button class="bnt-more"><a class="" href="shop/produtos.html">Saiba Mais</a></button> <br> <br>
+                </div>
+               <a href="shop/produtos.html"> <i class='bx bx-cart-alt' ></i> </a>
+                <i class='bx bx-heart' ></i>
+                <span class="discount big-promotion">-9% OFF</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Informações-->
+    <section class="work" id="work">
+        <!--Heading-->
+        <div class="heading-coment">
+            <h1>Seus Sonhos sob Medida<br> <span>É aqui na AirVision</span></h1>
+        </div>
+    </section>
+        <section class="tab" id="tab">
+            <div class="work-container container">
+                <!--Comentario1-->
+                <div class="work-box">
+                    <i class='bx bxs-medal'></i>
+                    <h3 class="work-title">Find the right Airplane</h3>
+                    <p class="work-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Qui debitis repellat doloribus. 
+                    </p>
+                </div>
+                <!--Comentario2-->
+                <div class="work-box">
+                    <i class='bx bxs-plane-alt' ></i>
+                    <h3 class="work-title">Find the right Airplane</h3>
+                    <p class="work-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Qui debitis repellat doloribus. 
+                    </p>
+                </div>
+                <!--Comentario3-->
+                <div class="work-box">
+                    <i class='bx bx-home-heart'></i>
+                    <h3 class="work-title">Find the right Airplane</h3>
+                    <p class="work-description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Qui debitis repellat doloribus. 
+                    </p>
+                </div>
+        </div>
+    </section>
+    <!--Destinos-->
+    <section class="work" id="work">
+        <div class="heading-coment">
+            <h1>Os melhores Destinos do mundo<br> <span>É aqui na AirVision</span></h1>
+        </div>
+    </section>
+    <section class="destination" id="destination">
+        <!-- Swiper -->
+  <div class="destination-container container swiper">
+    <div class="swiper-wrapper">
+        <!--Slide1-->
+      <div class="swiper-slide">
+        <div class="city-box">
+            <img src="img/img/zadar.jpg" alt="" class="city-img">
+            <div class="box-text">
+                <h2 class="ct-title">Croacia</h2>
+                <span class="city-name">Zadar</span>
+
+                </div>
+            </div>
+        </div>
+            <!--Slide2-->
+      <div class="swiper-slide">
+        <div class="city-box">
+            <img src="img/img/los-angeles.jpg" alt="" class="city-img">
+            <div class="box-text">
+                <h2 class="ct-title">Estados Unidos</h2>
+                <span class="city-name">Los Angeles</span>
+
+                </div>
+            </div>
+        </div>
+            <!--Slide3-->
+      <div class="swiper-slide">
+        <div class="city-box">
+            <img src="img/img/bruges.jpg" alt="" class="city-img">
+            <div class="box-text">
+                <h2 class="ct-title">Bruges</h2>
+                <span class="city-name">Bélgica</span>
+
+                </div>
+            </div>
+        </div>
+            <!--Slide4-->
+      <div class="swiper-slide">
+        <div class="city-box">
+            <img src="img/img/moscow.jpg" alt="" class="city-img">
+            <div class="box-text">
+                <h2 class="ct-title">Moscow</h2>
+                <span class="city-name">Rússia</span>
+
+                </div>
+            </div>
+        </div>
+            <!--Slide5-->
+      <div class="swiper-slide">
+        <div class="city-box">
+            <img src="img/img/quebec-city.jpg" alt="" class="city-img">
+            <div class="box-text">
+                <h2 class="ct-title">Quebec City</h2>
+                <span class="city-name">Canadá</span>
+
+                </div>
+            </div>
+        </div>
+            <!--Slide6-->
+      <div class="swiper-slide">
+        <div class="city-box">
+            <img src="img/img/budapeste.jpg" alt="" class="city-img">
+            <div class="box-text">
+                <h2 class="ct-title">Budapeste</h2>
+                <span class="city-name">Húngria</span>
+
+                </div>
+            </div>
+        </div>
+      
+    </div>
+    
+    <div class="swiper-pagination"></div>
+  </div>
+    </section>
+
+
+    <!--Link do JS-->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"> 
+
+    </script>
+</body>
+</html>
